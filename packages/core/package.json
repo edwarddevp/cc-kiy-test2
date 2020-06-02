@@ -45,7 +45,6 @@
   },
   "dependencies": {
     "@cc-test2/boxcontainer": "^2.0.5",
-    "@cc-test2/cc-charts": "^2.0.6",
     "@cc-test2/datatable": "^2.0.5",
     "@cc-test2/datatabs": "^2.0.5"
   },
@@ -73,5 +72,5 @@
   "files": [
     "dist"
   ],
-  "gitHead": "aea98bebf9408dc53d479dce12b7a18d334419ee"
+  "gitHead": "463f3088929bb10b8598fdaea74f3a2b8f3cc216"
 }

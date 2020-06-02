@@ -1,7 +1,7 @@
 import {getXYChartSeries} from "./XYChartSeries";
 import {createCircleBullet, createMovingImageBullets} from "../bullets";
 
-import {validateZero} from './../validateZero'
+import {validateZero} from '../validateZero'
 
 export const xyChartSeriesCreateSeries = (chart,serie,xAxis,yAxis) =>{
   const xySeries = chart.series.push(getXYChartSeries(serie?.type));
