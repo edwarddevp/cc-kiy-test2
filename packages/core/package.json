@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@cc-test2/boxcontainer": "^1.0.0",
-    "@cc-test2/datatabl": "^1.0.0",
+    "@cc-test2/datatable": "^1.0.0",
     "@cc-test2/datatabs": "^1.0.0"
   },
   "devDependencies": {
