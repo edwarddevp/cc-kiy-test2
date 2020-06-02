@@ -30,9 +30,9 @@
     "react": "^16.0.0"
   },
   "dependencies": {
-    "boxcontainer": "^1.0.0",
-    "datatable": "^1.0.0",
-    "datatabs": "^1.0.0"
+    "@cc-test2/datatabl": "^1.0.0",
+    "@cc-test2/datatabs": "^1.0.0",
+    "@cc-test2/boxcontainer": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
