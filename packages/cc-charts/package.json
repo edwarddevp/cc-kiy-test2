@@ -28,7 +28,8 @@
   },
   "peerDependencies": {
     "@amcharts/amcharts4": "^4.9.19",
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "next": "^9.4.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
