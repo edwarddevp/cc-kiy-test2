@@ -24,7 +24,12 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "@chakra-ui/core": "^0.7.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "emotion-theming": "^10.0.27",
+    "@tinymce/tinymce-react": "^3.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -49,5 +54,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "gitHead": "d0c53e482e92309d0b8da0085f3e61a23625f083"
 }
