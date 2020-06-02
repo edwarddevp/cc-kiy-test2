@@ -1,5 +1,3 @@
-import React from 'react'
-
-export const ExampleComponent = ({ text }) => {
-  return <div>Example Component: {text}</div>
-};
+export { Chart } from ' @cc-test2/boxcontainer'
+export { Table } from ' @cc-test2/datatable'
+export { DataTabs } from '@cc-test2/datatabs'
