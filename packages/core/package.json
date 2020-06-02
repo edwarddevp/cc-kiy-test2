@@ -1,6 +1,6 @@
 {
   "name": "@cc-test2/core",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -27,25 +27,25 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-icons": "^3.10.0",
-    "react-input-files": "^1.2.0",
-    "react-lottie": "^1.2.3",
-    "react-paginate": "^6.3.2",
-    "react-datepicker": "^2.15.0",
-    "next": "^9.4.2",
     "@chakra-ui/core": "^0.7.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
-    "emotion-theming": "^10.0.27",
     "@tinymce/tinymce-react": "^3.6.0",
+    "emotion-theming": "^10.0.27",
     "formik": "^2.1.4",
+    "lodash": "^4.17.15",
     "moment": "^2.25.3",
-    "lodash": "^4.17.15"
+    "next": "^9.4.2",
+    "react": "^16.0.0",
+    "react-datepicker": "^2.15.0",
+    "react-icons": "^3.10.0",
+    "react-input-files": "^1.2.0",
+    "react-lottie": "^1.2.3",
+    "react-paginate": "^6.3.2"
   },
   "dependencies": {
     "@cc-test2/boxcontainer": "^2.0.5",
-    "@cc-test2/cc-charts": "^2.0.5",
+    "@cc-test2/cc-charts": "^2.0.6",
     "@cc-test2/datatable": "^2.0.5",
     "@cc-test2/datatabs": "^2.0.5"
   },
