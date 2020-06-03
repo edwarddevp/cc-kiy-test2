@@ -38,7 +38,8 @@
     "react": "^16.0.0",
     "react-datepicker": "^2.15.0",
     "react-icons": "^3.10.0",
-    "react-input-files": "^1.2.0"
+    "react-input-files": "^1.2.0",
+    "@cc-test2/clickoutside": "^1.0.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -64,5 +65,5 @@
   "files": [
     "dist"
   ],
-  "gitHead": "dd75eb9b5ceb27c3a8963624c1e00ec382231632"
+  "gitHead": "c9dd45ce6aac5c15a58163de1c8ab39da6b8c823"
 }
