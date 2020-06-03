@@ -1,7 +1,8 @@
 import React from 'react'
-import { Grid, IconButton, Tooltip, Button } from '@chakra-ui/core'
+import { Grid, IconButton, Tooltip } from '@chakra-ui/core'
 import { buildParams } from '../../../Helpers/buildParams'
 import { collapseButton, rowActionsButton, rowActionsContainer, rowActionsIconButton } from '../../../styles'
+import Button from '@chakra-ui/core/dist/Button'
 import Link from 'next/link'
 
 export const RowActions = ({ actions, row, collapse, showCollapse, setShowCollapse, direction }) => {

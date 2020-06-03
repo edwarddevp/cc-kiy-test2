@@ -3,7 +3,6 @@ import React from 'react'
 
 export const useSelectionTable = (list, localPaginate, page, limit, selected, setSelected, setSelectedRows) => {
 
-  const toPaginateList = localPaginate ? list.slice(limit * (page - 1), limit * page) : list
   const allChecked = selected.length === limit
   const isIndeterminate = selected.some(Boolean) && !allChecked
 
@@ -20,7 +19,7 @@ export const useSelectionTable = (list, localPaginate, page, limit, selected, se
   }
 
   const changeSelectedAll = checked => {
-    toPaginateList.map(item => {
+    list.map(item => {
       const idx = selected.indexOf(item._id)
       if (checked) {
         if (idx === -1) {

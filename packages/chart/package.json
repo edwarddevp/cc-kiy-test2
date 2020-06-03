@@ -11,6 +11,9 @@
   "engines": {
     "node": ">=10"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
@@ -24,7 +27,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "@amcharts/amcharts4": "^4.9.19"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -49,5 +53,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "gitHead": "a4789c1a508ee25a880488ee4c503f1a26d75f26"
 }

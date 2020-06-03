@@ -1,6 +1,7 @@
 import React from 'react'
-import { Box, Checkbox, Grid, Skeleton, Text, Icon } from '@chakra-ui/core'
+import { Box, Checkbox, Grid, Skeleton, Text } from '@chakra-ui/core'
 import { checkItem, headActionItem, headItem } from '../../styles'
+import Icon from '@chakra-ui/core/dist/Icon'
 
 export const THead = props => {
   const {
@@ -74,5 +75,16 @@ export const THead = props => {
         w={`${widthActions(actions.length)}px`}/> :
       <Box/>
     }
+
+    { /*language=CSS*/}
+    <style jsx>{`      
+      ::selection {
+        background: transparent; /* WebKit/Blink Browsers */
+      }
+
+      ::-moz-selection {
+        background: transparent; /* Gecko Browsers */
+      }
+    `}</style>
   </Grid>
 }

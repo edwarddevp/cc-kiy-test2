@@ -1,1 +1,2 @@
-export { DataTabs } from './DataTabs'
+import { DataTabs } from './DataTabs'
+export default DataTabs

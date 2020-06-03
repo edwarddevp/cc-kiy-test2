@@ -1,1 +1,2 @@
-export { BoxContainer } from './BoxContainer'
+import { BoxContainer } from './BoxContainer'
+export default BoxContainer

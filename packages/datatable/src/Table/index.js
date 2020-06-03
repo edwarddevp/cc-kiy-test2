@@ -14,7 +14,8 @@ export const Table = ({  sort, noDataComponent, localPaginate, list = [], action
 
   const [sortBy, setSortBy] = useState('_id')
   const [orderBy, setOrderBy] = useState('desc')
-  const rows = sort ? _.orderBy(list,sortBy,orderBy) : list
+  const toPaginateList = localPaginate ? list.slice(limit * (page - 1), limit * page) : list
+  const rows = sort ? _.orderBy(toPaginateList,sortBy,orderBy) : toPaginateList
   const [
     allChecked,
     isIndeterminate,
@@ -96,7 +97,7 @@ Table.propTypes = {
   setSelectedRows:PropTypes.func,
   selectedRows:PropTypes.array,
   loading:PropTypes.bool,
-  collapse:PropTypes.array,
+  collapse:PropTypes.any,
   noBorder:PropTypes.bool,
   striped:PropTypes.bool,
   hovered:PropTypes.bool
