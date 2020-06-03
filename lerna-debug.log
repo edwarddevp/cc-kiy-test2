@@ -2,76 +2,11 @@
 0 silly argv   _: [ 'publish' ],
 0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '3.22.0',
-0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
-0 silly argv   bump: 'from-git'
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
 0 silly argv }
 1 notice cli v3.22.0
 2 verbose rootPath D:\cc-kit
 3 info versioning independent
-4 verbose session 6a0676991a15e5ed
-5 verbose user-agent lerna/3.22.0/node@v12.14.1+x64 (win32)
-6 verbose git-describe undefined => "@cc-test2/core@2.0.21-0-g6e8b174"
-7 silly git-describe parsed => {"lastTagName":"@cc-test2/core@2.0.21","lastVersion":"2.0.21","refCount":"0","sha":"6e8b174","isDirty":false}
-8 silly getCurrentTags matching "*@*"
-9 info publish Publishing packages to npm...
-10 info Verifying npm credentials
-11 verbose Retrieving npm user profile
-12 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1863ms
-13 silly npm profile get received {"tfa":false,"name":"lordapollo","email":"edwardabocarandab@gmail.com","email_verified":true,"created":"2020-01-27T13:10:15.642Z","updated":"2020-06-02T15:51:18.871Z","cidr_whitelist":null,"fullname":"Edward Bocaranda"}
-14 silly get npm username received {"username":"lordapollo","tfa":false,"name":"lordapollo","email":"edwardabocarandab@gmail.com","email_verified":true,"created":"2020-01-27T13:10:15.642Z","updated":"2020-06-02T15:51:18.871Z","cidr_whitelist":null,"fullname":"Edward Bocaranda"}
-15 silly verifyNpmPackageAccess
-16 http fetch GET 200 https://registry.npmjs.org/-/org/lordapollo/package?format=cli 885ms
-17 info Checking two-factor auth mode
-18 verbose Retrieving npm user profile
-19 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1127ms
-20 silly npm profile get received {"tfa":false,"name":"lordapollo","email":"edwardabocarandab@gmail.com","email_verified":true,"created":"2020-01-27T13:10:15.642Z","updated":"2020-06-02T15:51:18.871Z","cidr_whitelist":null,"fullname":"Edward Bocaranda"}
-21 silly 2FA false
-22 warn ENOLICENSE Packages @cc-test2/core, @cc-test2/formfield, and @cc-test2/photogridandaction are missing a license.
-22 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
-22 warn ENOLICENSE See https://choosealicense.com for additional guidance.
-23 silly getCurrentSHA
-24 verbose getCurrentSHA 6e8b174804836ed131dd4b63ecb3d0c130c7e8b9
-25 silly lifecycle No script for "prepublish" in "root", continuing
-26 silly lifecycle No script for "prepare" in "root", continuing
-27 silly lifecycle No script for "prepublishOnly" in "root", continuing
-28 silly lifecycle No script for "prepack" in "root", continuing
-29 verbose pack-directory packages\core
-30 verbose pack-directory packages\formfield
-31 verbose pack-directory packages\photogridandaction
-32 silly lifecycle No script for "prepublish" in "@cc-test2/core", continuing
-33 silly lifecycle No script for "prepublish" in "@cc-test2/formfield", continuing
-34 silly lifecycle No script for "prepublish" in "@cc-test2/photogridandaction", continuing
-35 silly lifecycle "prepare" starting in "@cc-test2/core"
-36 info lifecycle @cc-test2/core@2.0.21~prepare: @cc-test2/core@2.0.21
-37 silly lifecycle "prepare" starting in "@cc-test2/formfield"
-38 info lifecycle @cc-test2/formfield@1.0.9~prepare: @cc-test2/formfield@1.0.9
-39 silly lifecycle "prepare" starting in "@cc-test2/photogridandaction"
-40 info lifecycle @cc-test2/photogridandaction@1.0.9~prepare: @cc-test2/photogridandaction@1.0.9
-41 verbose lifecycle @cc-test2/core@2.0.21~prepare: unsafe-perm in lifecycle true
-42 verbose lifecycle @cc-test2/core@2.0.21~prepare: PATH: D:\cc-kit\node_modules\npm-lifecycle\node-gyp-bin;D:\cc-kit\packages\core\node_modules\.bin;D:\cc-kit\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby24-x64\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\xampp\mysql\bin;C:\xampp\php;C:\Program Files\Java\jdk1.8.0_181;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\tools\;C:\tools\adb;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\code.developer10\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\code.developer10\AppData\Local\Programs\Python\Python36\;C:\Users\code.developer10\AppData\Local\Microsoft\WindowsApps;C:\Users\code.developer10\AppData\Local\cmder;C:\Users\code.developer10\AppData\Local\ngrok;C:\Users\code.developer10\AppData\Local\.meteor;C:\Users\code.developer10\AppData\Local\Microsoft\WindowsApps;C:\tools\dart-sdk\bin;C:\Users\code.developer10\AppData\Roaming\Pub\Cache\bin;C:\Users\code.developer10\AppData\Local\.meteor\;C:\Users\code.developer10\AppData\Local\hyper\app-2.1.2\resources\bin;C:\Users\code.developer10\AppData\Roaming\npm;C:\Users\code.developer10\AppData\Local\Programs\Microsoft VS Code\bin
-43 verbose lifecycle @cc-test2/core@2.0.21~prepare: CWD: D:\cc-kit\packages\core
-44 silly lifecycle @cc-test2/core@2.0.21~prepare: Args: [ '/d /s /c', 'run-s build' ]
-45 silly lifecycle @cc-test2/core@2.0.21~prepare: Returned: code: 0  signal: null
-46 verbose lifecycle @cc-test2/formfield@1.0.9~prepare: unsafe-perm in lifecycle true
-47 verbose lifecycle @cc-test2/formfield@1.0.9~prepare: PATH: D:\cc-kit\node_modules\npm-lifecycle\node-gyp-bin;D:\cc-kit\packages\formfield\node_modules\.bin;D:\cc-kit\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Ruby24-x64\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\xampp\mysql\bin;C:\xampp\php;C:\Program Files\Java\jdk1.8.0_181;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\tools\;C:\tools\adb;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\code.developer10\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\code.developer10\AppData\Local\Programs\Python\Python36\;C:\Users\code.developer10\AppData\Local\Microsoft\WindowsApps;C:\Users\code.developer10\AppData\Local\cmder;C:\Users\code.developer10\AppData\Local\ngrok;C:\Users\code.developer10\AppData\Local\.meteor;C:\Users\code.developer10\AppData\Local\Microsoft\WindowsApps;C:\tools\dart-sdk\bin;C:\Users\code.developer10\AppData\Roaming\Pub\Cache\bin;C:\Users\code.developer10\AppData\Local\.meteor\;C:\Users\code.developer10\AppData\Local\hyper\app-2.1.2\resources\bin;C:\Users\code.developer10\AppData\Roaming\npm;C:\Users\code.developer10\AppData\Local\Programs\Microsoft VS Code\bin
-48 verbose lifecycle @cc-test2/formfield@1.0.9~prepare: CWD: D:\cc-kit\packages\formfield
-49 silly lifecycle @cc-test2/formfield@1.0.9~prepare: Args: [ '/d /s /c', 'run-s build' ]
-50 silly lifecycle "prepare" finished in "@cc-test2/core"
-51 silly lifecycle No script for "prepublishOnly" in "@cc-test2/core", continuing
-52 silly lifecycle No script for "prepack" in "@cc-test2/core", continuing
-53 error ZlibError: zlib: invalid literal/length code
-53 error     at Unzip.<anonymous> (D:\cc-kit\node_modules\minizlib\index.js:73:52)
-53 error     at Unzip.emit (events.js:228:7)
-53 error     at Zlib.zlibOnError [as onerror] (zlib.js:173:8)
-53 error     at processChunkSync (zlib.js:416:12)
-53 error     at Unzip.ZlibBase._processChunk (zlib.js:391:12)
-53 error     at Unzip.write (D:\cc-kit\node_modules\minizlib\index.js:140:30)
-53 error     at Object.write (D:\cc-kit\node_modules\tar\lib\parse.js:305:58)
-53 error     at Yallist.<anonymous> (D:\cc-kit\node_modules\fs-minipass\node_modules\minipass\index.js:374:18)
-53 error     at Yallist.forEach (D:\cc-kit\node_modules\yallist\yallist.js:156:8)
-53 error     at ReadStream.emit (D:\cc-kit\node_modules\fs-minipass\node_modules\minipass\index.js:373:20)
-53 error     at ReadStream.emit (D:\cc-kit\node_modules\fs-minipass\index.js:154:22)
-53 error     at ReadStream.write (D:\cc-kit\node_modules\fs-minipass\node_modules\minipass\index.js:163:17)
-53 error     at ReadStream.[_handleChunk] (D:\cc-kit\node_modules\fs-minipass\index.js:131:19)
-53 error     at ReadStream.[_onread] (D:\cc-kit\node_modules\fs-minipass\index.js:109:32)
-53 error     at D:\cc-kit\node_modules\fs-minipass\index.js:101:22
+4 error JSONError: Unexpected string in JSON at position 1513 while parsing '{  "name": "@cc-test2/core",  "version' in packages\core\package.json
+4 error     at module.exports (D:\cc-kit\node_modules\parse-json\index.js:26:19)
+4 error     at parse (D:\cc-kit\node_modules\load-json-file\index.js:15:9)

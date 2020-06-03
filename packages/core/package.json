@@ -55,7 +55,7 @@
     "@cc-test2/navbar": "^1.08",
     "@cc-test2/pageheader":"^1.08",
     "@cc-test2/paginate": "^1.08",
-    "@cc-test2/sidebar":"^1.08",
+    "@cc-test2/sidebar":"^1.08"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
