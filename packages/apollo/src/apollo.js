@@ -1,5 +1,5 @@
 import React from 'react'
-import initApollo from './init-apollo'
+import initApollo from '@cc-test2/initapollo'
 import Head from 'next/head'
 import { getDataFromTree } from 'react-apollo'
 
@@ -14,7 +14,7 @@ export default App => {
         appProps = await App.getInitialProps(ctx)
       }
 
-      // Run all GraphQL queries in the component tree
+      // Run all GraphQL queries in the component trsee
       // and extract the resulting data
       const apollo = initApollo()
       if (!process.browser) {
