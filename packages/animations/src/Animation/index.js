@@ -1,7 +1,6 @@
 import React, {useEffect,useState} from 'react';
 import Lottie from 'react-lottie';
 import PropTypes from "prop-types";
-import {Alert} from "../Alert";
 
 export const Animation = ({ autoplay, loop, isStopped, isPaused, name, height, width }) => {
   const [animationData,setAnimationData] = useState('');
