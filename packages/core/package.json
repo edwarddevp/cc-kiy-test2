@@ -46,7 +46,7 @@
   "dependencies": {
     "@cc-test2/boxcontainer": "^2.0.13",
     "@cc-test2/datatable": "^2.0.13",
-    "@cc-test2/datatabs": "^2.0.13"
+    "@cc-test2/datatabs": "^2.0.13",
     "@cc-test2/alert":"^1.08",
     "@cc-test2/animations": "^1.08",
     "@cc-test2/clickoutside":"^1.08",
