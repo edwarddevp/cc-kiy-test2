@@ -1,7 +1,7 @@
 import React, {Fragment, useState} from 'react'
 import {imageGrid} from "./styles";
 import {Grid, Spinner} from "@chakra-ui/core";
-import { Alert } from "../Alert";
+import { Alert } from "@cc-test2/alert";
 import {ImageItem} from "./Components/ImageItem";
 import {ActionButton} from "./Components/ActionButton";
 import {ImageGridNav} from "./Components/ImageGridNav";
