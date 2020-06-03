@@ -1,18 +1,15 @@
 {
-  "name": "@cc-test2/core",
-  "version": "2.0.29",
+  "name": "slug",
+  "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
-  "repository": "CodeCraft/core",
+  "repository": "CodeCraft/slug",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
@@ -27,38 +24,10 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@chakra-ui/core": "^0.7.0",
-    "@emotion/core": "^10.0.28",
-    "@emotion/styled": "^10.0.27",
-    "@tinymce/tinymce-react": "^3.6.0",
-    "emotion-theming": "^10.0.27",
-    "formik": "^2.1.4",
-    "lodash": "^4.17.15",
-    "moment": "^2.25.3",
-    "next": "^9.4.2",
-    "react": "^16.0.0",
-    "react-datepicker": "^2.15.0",
-    "react-icons": "^3.10.0",
-    "react-input-files": "^1.2.0",
-    "react-lottie": "^1.2.3",
-    "react-paginate": "^6.3.2"
-  },
-  "dependencies": {
-    "@cc-test2/alert": "^1.0.8",
-    "@cc-test2/animations": "^1.0.8",
-    "@cc-test2/boxcontainer": "^2.0.13",
-    "@cc-test2/clickoutside": "^1.0.8",
-    "@cc-test2/datatable": "^2.0.13",
-    "@cc-test2/datatabs": "^2.0.13",
-    "@cc-test2/formfield": "^1.0.10",
-    "@cc-test2/modal": "^1.0.8",
-    "@cc-test2/navbar": "^1.0.8",
-    "@cc-test2/pageheader": "^1.0.8",
-    "@cc-test2/paginate": "^1.0.8",
-    "@cc-test2/photogridandaction": "^1.0.10",
-    "@cc-test2/sidebar": "^1.0.8"
+    "react": "^16.0.0"
   },
   "devDependencies": {
+    "microbundle-crl": "^0.13.10",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
@@ -72,7 +41,6 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
-    "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
@@ -81,6 +49,5 @@
   },
   "files": [
     "dist"
-  ],
-  "gitHead": "8329c7589703ed79d17841406e05debed70848f6"
+  ]
 }
