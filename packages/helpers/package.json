@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "react": "^16.0.0",
-    "@cc-test2/texttransform": '^1.0.1',
+    "@cc-test2/texttransform": "^1.0.1",
     "@cc-test2/auth": "^1.0.5",
     "@cc-test2/redirectto": "^1.0.5",
     "@cc-test2/apollo": "^1.0.5",
