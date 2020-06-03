@@ -1,6 +1,6 @@
 {
   "name": "@cc-test2/core",
-  "version": "2.0.22",
+  "version": "2.0.23",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -44,18 +44,18 @@
     "react-paginate": "^6.3.2"
   },
   "dependencies": {
+    "@cc-test2/alert": "^1.08",
+    "@cc-test2/animations": "^1.08",
     "@cc-test2/boxcontainer": "^2.0.13",
+    "@cc-test2/clickoutside": "^1.08",
     "@cc-test2/datatable": "^2.0.13",
     "@cc-test2/datatabs": "^2.0.13",
-    "@cc-test2/alert":"^1.08",
-    "@cc-test2/animations": "^1.08",
-    "@cc-test2/clickoutside":"^1.08",
     "@cc-test2/formfield": "^1.08",
-    "@cc-test2/modal":"^1.08",
+    "@cc-test2/modal": "^1.08",
     "@cc-test2/navbar": "^1.08",
-    "@cc-test2/pageheader":"^1.08",
+    "@cc-test2/pageheader": "^1.08",
     "@cc-test2/paginate": "^1.08",
-    "@cc-test2/sidebar":"^1.08"
+    "@cc-test2/sidebar": "^1.08"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
