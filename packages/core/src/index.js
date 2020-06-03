@@ -2,7 +2,6 @@ import BoxContainer  from '@cc-test2/boxcontainer'
 import Table  from '@cc-test2/datatable'
 import DataTabs  from '@cc-test2/datatabs'
 import Alert  from "@cc-test2/alert"
-import { Chart }  from "@cc-test2/chart"
 import Animations  from "@cc-test2/animations"
 import ClickOutside  from "@cc-test2/clickoutside"
 import FormField  from "@cc-test2/formfield"
@@ -17,7 +16,6 @@ export {
   Table,
   DataTabs,
   Alert,
-  Chart,
   Animations,
   ClickOutside,
   FormField,
