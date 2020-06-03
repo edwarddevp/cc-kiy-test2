@@ -10,7 +10,7 @@ import { File } from './File'
 import { DateTimePicker } from './DateTimePicker'
 import PropTypes from "prop-types";
 
-const FormField = ({type, name, label, data, placeholder, height, required, loading, inline, state, multiple,noLabel,isDisabled}) => {
+export const FormField = ({type, name, label, data, placeholder, height, required, loading, inline, state, multiple,noLabel,isDisabled}) => {
 
   return <Field type={type === 'radio' || type === 'checkbox' ? 'text' : type} name={name}>
     {({field, form}) => (
@@ -39,7 +39,6 @@ const FormField = ({type, name, label, data, placeholder, height, required, load
   </Field>
 };
 
-export {FormField}
 
 
 FormField.propTypes = {
