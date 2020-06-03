@@ -1,2 +1,2 @@
 import redirectTo from './redirectTo'
-export redirectTo
+export default redirectTo

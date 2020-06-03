@@ -1,2 +1,2 @@
 import App from './apollo'
-export App
+export default App
