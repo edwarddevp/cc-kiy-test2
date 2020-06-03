@@ -10,6 +10,7 @@ import NavBar  from "@cc-test2/navbar"
 import PageHeader  from "@cc-test2/pageheader"
 import Paginate  from "@cc-test2/paginate"
 import Sidebar  from "@cc-test2/sidebar"
+import PhotoGridAndAction from "@cc-test2/photogridandaction";
 
 export {
   BoxContainer,
@@ -23,5 +24,6 @@ export {
   NavBar,
   PageHeader,
   Paginate,
-  Sidebar
+  Sidebar,
+  PhotoGridAndAction
 }
