@@ -27,14 +27,16 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "dependencies": {
     "@cc-test2/apollo": "^1.0.5",
     "@cc-test2/auth": "^1.0.5",
     "@cc-test2/comet": "^1.0.1",
     "@cc-test2/phonenumber": "^1.0.1",
     "@cc-test2/redirectto": "^1.0.5",
     "@cc-test2/slug": "^1.0.1",
-    "@cc-test2/texttransform": "^1.0.1",
-    "react": "^16.0.0"
+    "@cc-test2/texttransform": "^1.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
