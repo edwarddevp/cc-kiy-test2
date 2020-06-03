@@ -1,6 +1,6 @@
 {
   "name": "@cc-test2/core",
-  "version": "2.0.27",
+  "version": "2.0.28",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -55,8 +55,8 @@
     "@cc-test2/navbar": "^1.0.8",
     "@cc-test2/pageheader": "^1.0.8",
     "@cc-test2/paginate": "^1.0.8",
-    "@cc-test2/sidebar": "^1.0.8",
-    "@cc-test2/photogridandaction": "^1.0.10"
+    "@cc-test2/photogridandaction": "^1.0.10",
+    "@cc-test2/sidebar": "^1.0.8"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
