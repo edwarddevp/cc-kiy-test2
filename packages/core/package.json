@@ -1,6 +1,6 @@
 {
   "name": "@cc-test2/core",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -44,9 +44,9 @@
     "react-paginate": "^6.3.2"
   },
   "dependencies": {
-    "@cc-test2/boxcontainer": "^2.0.12",
-    "@cc-test2/datatable": "^2.0.12",
-    "@cc-test2/datatabs": "^2.0.12"
+    "@cc-test2/boxcontainer": "^2.0.13",
+    "@cc-test2/datatable": "^2.0.13",
+    "@cc-test2/datatabs": "^2.0.13"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
