@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Grid, Image, Spinner} from "@chakra-ui/core";
 
-import Modal from "../../../Modal";
+import Modal from "@cc-test2/modal";
 
 export const ModalPreviewImage = ({isOpen,onClose,imageSrc}) => {
     const [loading,setLoading] = useState(true);

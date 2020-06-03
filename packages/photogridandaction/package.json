@@ -37,6 +37,7 @@
     "react-icons": "^3.10.0",
     "react-input-files": "^1.2.0",
     "@cc-test2/alert": "^1.0.5"
+    "@cc-test2/modal": "^1.0.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
