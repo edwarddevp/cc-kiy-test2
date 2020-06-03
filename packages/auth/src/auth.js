@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import nextCookie from 'next-cookies';
-import redirectTo from "./redirectTo";
+import redirectTo from "@cc-test2/redirectto";
 
 const auth = ctx => {
   const { dotribe__authtoken } = nextCookie(ctx);
