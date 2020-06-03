@@ -1,10 +1,10 @@
 {
-  "name": "@cc-test2/slug",
+  "name": "@cc-test2/phonenumber",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
-  "repository": "CodeCraft/slug",
+  "repository": "CodeCraft/phonenumber",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -27,8 +27,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "slugify": "^1.3.6"
+    "react": "^16.0.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",

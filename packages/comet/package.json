@@ -1,10 +1,10 @@
 {
-  "name": "@cc-test2/slug",
+  "name": "@cc-test2/comet",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
-  "repository": "CodeCraft/slug",
+  "repository": "CodeCraft/comet",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -28,7 +28,9 @@
   },
   "peerDependencies": {
     "react": "^16.0.0",
-    "slugify": "^1.3.6"
+    "asteroid": "^2.0.3",
+    "crypto-js": "^3.1.9-1",
+    "moment": "^2.24.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
