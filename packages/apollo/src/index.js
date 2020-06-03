@@ -1,1 +1,2 @@
-export App from './apollo'
+import App from './apollo'
+export App
