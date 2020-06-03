@@ -5,6 +5,7 @@ import App from "@cc-test2/apollo";
 import Comet from "@cc-test2/comet";
 import slug from "@cc-test2/slug";
 import phoneNumber from "@cc-test2/phonenumber";
+import initApollo from "@cc-test2/initapollo";
 
 export {
   toLowerCase,
@@ -13,5 +14,6 @@ export {
   redirectTo,
   Comet,
   phoneNumber,
-  App
+  App,
+  initApollo
 }
