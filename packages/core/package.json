@@ -1,6 +1,6 @@
 {
   "name": "@cc-test2/core",
-  "version": "2.0.31",
+  "version": "2.0.32",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -49,7 +49,7 @@
     "@cc-test2/boxcontainer": "^2.0.13",
     "@cc-test2/clickoutside": "^1.0.8",
     "@cc-test2/datatable": "^2.0.13",
-    "@cc-test2/datatabs": "^2.0.13",
+    "@cc-test2/datatabs": "^2.0.14",
     "@cc-test2/formfield": "^1.0.10",
     "@cc-test2/modal": "^1.0.8",
     "@cc-test2/navbar": "^1.0.8",

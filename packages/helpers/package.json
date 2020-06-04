@@ -1,6 +1,6 @@
 {
   "name": "@cc-test2/helpers",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -48,8 +48,8 @@
     "@cc-test2/phonenumber": "^1.0.1",
     "@cc-test2/redirectto": "^1.0.5",
     "@cc-test2/slug": "^1.0.1",
-    "@cc-test2/texttransform": "^1.0.1",
-    "@cc-test2/splititem": "^1.0.1"
+    "@cc-test2/splititem": "^1.0.1",
+    "@cc-test2/texttransform": "^1.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
