@@ -3,7 +3,7 @@ import redirectTo from "@cc-test2/redirectto";
 
 export const SessionContext = createContext();
 
-export const git SessionContextProvider = ({ children }) => {
+export const SessionContextProvider = ({ children }) => {
 
   const [ token, setToken ] = useState('');
   const [ session, setSession ] = useState({});
