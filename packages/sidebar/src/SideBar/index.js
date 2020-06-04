@@ -7,7 +7,7 @@ import {ToggleButton} from "./components/ToggleButton";
 import {useDrawerActions} from "./hooks/useDrawerActions";
 import PropTypes from "prop-types";
 
-export const SideBar = ({head, menu, isResizable = false, isCollapsible = false}) => {
+export const SideBar = ({head, menu = [], isResizable = false, isCollapsible = false}) => {
 
   const [
     showDrawer,
