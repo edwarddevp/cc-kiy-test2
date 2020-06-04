@@ -1,6 +1,6 @@
 {
   "name": "@cc-test2/hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -15,9 +15,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@cc-test2/usedatatable": "^1.0.1",
-    "@cc-test2/usegetdatabyurl": "^1.0.1",
-    "@cc-test2/usegqlrequest": "^1.0.1"
+    "@cc-test2/usedatatable": "^1.0.2",
+    "@cc-test2/usegetdatabyurl": "^1.0.2",
+    "@cc-test2/usegqlrequest": "^1.0.2"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
