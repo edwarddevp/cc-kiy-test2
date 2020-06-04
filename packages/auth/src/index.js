@@ -1,2 +1,3 @@
-import auth from './auth'
+import auth, { withAuthSync } from './auth'
 export default auth
+export { withAuthSync }
