@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraft/clickoutside.svg)](https://www.npmjs.com/package/@codecraft/clickoutside) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraftkit/clickoutside.svg)](https://www.npmjs.com/package/@codecraftkit/clickoutside) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraft/clickoutside
+npm install --save @codecraftkit/clickoutside
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save @codecraft/clickoutside
 ```jsx
 import React, { Component } from 'react'
 import {Box, Button, Code, Grid, Text, useDisclosure} from "@chakra-ui/core";
-import ClickOutside from "@codecraft/clickoutside";
+import ClickOutside from "@codecraftkit/clickoutside";
 
 const ExampleComponent = () => {
     const {isOpen, onOpen, onClose} = useDisclosure();

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import nextCookie from 'next-cookies';
-import redirectTo from "@codecraft/redirectto";
+import redirectTo from "@codecraftkit/redirectto";
 
 const auth = ctx => {
   const { dotribe__authtoken } = nextCookie(ctx);

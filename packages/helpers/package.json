@@ -1,5 +1,5 @@
 {
-  "name": "@codecraft/helpers",
+  "name": "@codecraftkit/helpers",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
@@ -41,15 +41,15 @@
     "slugify": "^1.3.6"
   },
   "dependencies": {
-    "@codecraft/apollo": "^1.0.0",
-    "@codecraft/auth": "^1.0.0",
-    "@codecraft/comet": "^1.0.0",
-    "@codecraft/initapollo": "^1.0.0",
-    "@codecraft/phonenumber": "^1.0.0",
-    "@codecraft/redirectto": "^1.0.0",
-    "@codecraft/slug": "^1.0.0",
-    "@codecraft/splititem": "^1.0.0",
-    "@codecraft/texttransform": "^1.0.0"
+    "@codecraftkit/apollo": "^1.0.0",
+    "@codecraftkit/auth": "^1.0.0",
+    "@codecraftkit/comet": "^1.0.0",
+    "@codecraftkit/initapollo": "^1.0.0",
+    "@codecraftkit/phonenumber": "^1.0.0",
+    "@codecraftkit/redirectto": "^1.0.0",
+    "@codecraftkit/slug": "^1.0.0",
+    "@codecraftkit/splititem": "^1.0.0",
+    "@codecraftkit/texttransform": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

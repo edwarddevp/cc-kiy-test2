@@ -1,6 +1,6 @@
-import { useDataTable } from "@codecraft/usedatatable";
-import { useGetDataByUrl } from "@codecraft/usegqlrequest";
-import { useGqlQueryRequest } from "@codecraft/usegetdatabyurl";
+import { useDataTable } from "@codecraftkit/usedatatable";
+import { useGetDataByUrl } from "@codecraftkit/usegqlrequest";
+import { useGqlQueryRequest } from "@codecraftkit/usegetdatabyurl";
 
 
 export {

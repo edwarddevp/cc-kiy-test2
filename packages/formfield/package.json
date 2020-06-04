@@ -1,5 +1,5 @@
 {
-  "name": "@codecraft/formfield",
+  "name": "@codecraftkit/formfield",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
@@ -27,7 +27,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@codecraft/clickoutside": "^1.0.0",
+    "@codecraftkit/clickoutside": "^1.0.0",
     "@chakra-ui/core": "^0.7.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",

@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save @codecraft/sidebar
+npm install --save @codecraftkit/sidebar
 ```
 
 ## Usage

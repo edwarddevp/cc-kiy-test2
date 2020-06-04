@@ -2,19 +2,19 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraft/paginate.svg)](https://www.npmjs.com/package/@codecraft/paginate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraftkit/paginate.svg)](https://www.npmjs.com/package/@codecraftkit/paginate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraft/paginate
+npm install --save @codecraftkit/paginate
 ```
 
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
-import Paginate from "@codecraft/paginate";
+import Paginate from "@codecraftkit/paginate";
 
 const ExampleComponent = () => {
   return (

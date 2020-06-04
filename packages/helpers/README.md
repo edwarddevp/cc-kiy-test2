@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraft/helpers.svg)](https://www.npmjs.com/package/@codecraft/helpers) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraftkit/helpers.svg)](https://www.npmjs.com/package/@codecraftkit/helpers) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraft/helpers
+npm install --save @codecraftkit/helpers
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ import {
          withApolloClient,
          initApollo,
          splitItem
-       } from '@codecraft/helpers'
+       } from '@codecraftkit/helpers'
 
 ```
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useReducer, useState } from 'react'
 import { Box, Grid } from '@chakra-ui/core'
-import ClickOutside from "@codecraft/clickoutside";
+import ClickOutside from "@codecraftkit/clickoutside";
 import { PseudoInput } from './PseudoInput'
 import { PseudoTag } from './PseudoTag'
 import { SelectMultipleOptions } from './SelectMultipleOptions'

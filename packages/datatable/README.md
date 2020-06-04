@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraft/datatable.svg)](https://www.npmjs.com/package/@codecraft/datatable) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraftkit/datatable.svg)](https://www.npmjs.com/package/@codecraftkit/datatable) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraft/datatable
+npm install --save @codecraftkit/datatable
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save @codecraft/datatable
 ```jsx
 import React, { Component } from 'react'
 
-import Table from "@codecraft/datatable";
+import Table from "@codecraftkit/datatable";
 
 
 const ExampleComponent = () => {

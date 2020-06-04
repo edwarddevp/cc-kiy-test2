@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraft/alert.svg)](https://www.npmjs.com/package/@codecraft/alert) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraftkit/alert.svg)](https://www.npmjs.com/package/@codecraftkit/alert) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraft/alert
+npm install --save @codecraftkit/alert
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save @codecraft/alert
 ```jsx
 import React, { Component } from 'react'
 
-import Alert from '@codecraft/alert'
+import Alert from '@codecraftkit/alert'
 
 const AlertComponent = () => {
     const {isOpen, onOpen, onClose} = useDisclosure();

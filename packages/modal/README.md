@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraft/modal.svg)](https://www.npmjs.com/package/@codecraft/modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraftkit/modal.svg)](https://www.npmjs.com/package/@codecraftkit/modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraft/modal
+npm install --save @codecraftkit/modal
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save @codecraft/modal
 ```jsx
 import React, { Component } from 'react'
 import {Button, Text, useDisclosure} from "@chakra-ui/core";
-import Modal from "@codecraft/modal";
+import Modal from "@codecraftkit/modal";
 
 const ExampleComponent = () => {
     const {isOpen, onOpen, onClose} = useDisclosure();

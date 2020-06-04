@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
-import redirectTo from "@codecraft/redirectto";
+import redirectTo from "@codecraftkit/redirectto";
 
 export const SessionContext = createContext();
 

@@ -2,19 +2,19 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraft/photogridandaction.svg)](https://www.npmjs.com/package/@codecraft/photogridandaction) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraftkit/photogridandaction.svg)](https://www.npmjs.com/package/@codecraftkit/photogridandaction) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraft/photogridandaction
+npm install --save @codecraftkit/photogridandaction
 ```
 
 ## Usage
 
 ```jsx
 import React, { useState } from 'react'
-import PhotoGridAndAction from "@codecraft/photogridandaction";
+import PhotoGridAndAction from "@codecraftkit/photogridandaction";
 
 
 const Test = () => {

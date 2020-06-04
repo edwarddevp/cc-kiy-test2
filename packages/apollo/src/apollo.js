@@ -1,5 +1,5 @@
 import React from 'react'
-import initApollo from '@codecraft/initapollo'
+import initApollo from '@codecraftkit/initapollo'
 import Head from 'next/head'
 import { getDataFromTree } from 'react-apollo'
 

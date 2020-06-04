@@ -2,19 +2,19 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraft/formfield.svg)](https://www.npmjs.com/package/@codecraft/formfield) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraftkit/formfield.svg)](https://www.npmjs.com/package/@codecraftkit/formfield) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraft/formfield
+npm install --save @codecraftkit/formfield
 ```
 
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
-import FormField from "@codecraft/formfield";
+import FormField from "@codecraftkit/formfield";
 import {Form, Formik} from "formik"
 
 const ExampleComponent = () => {

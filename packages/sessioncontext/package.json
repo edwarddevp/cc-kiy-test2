@@ -1,5 +1,5 @@
 {
-  "name": "@codecraft/sessioncontext",
+  "name": "@codecraftkit/sessioncontext",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
@@ -27,7 +27,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@codecraft/redirectto": "^1.0.0",
+    "@codecraftkit/redirectto": "^1.0.0",
     "react": "^16.0.0"
   },
   "devDependencies": {

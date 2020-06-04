@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save @codecraft/navbar
+npm install --save @codecraftkit/navbar
 ```
 
 ## Usage

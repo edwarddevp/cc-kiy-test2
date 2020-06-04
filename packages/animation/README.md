@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraft/animations.svg)](https://www.npmjs.com/package/@codecraft/animations) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraftkit/animations.svg)](https://www.npmjs.com/package/@codecraftkit/animations) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraft/animations
+npm install --save @codecraftkit/animations
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save @codecraft/animations
 ```jsx
 import React, { Component } from 'react'
 
-import Animation from "@codecraft/animation";
+import Animation from "@codecraftkit/animation";
 
 const ExampleComponent = () => {
   return (

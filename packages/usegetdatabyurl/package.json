@@ -1,5 +1,5 @@
 {
-  "name": "@codecraft/usegetdatabyurl",
+  "name": "@codecraftkit/usegetdatabyurl",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
@@ -27,7 +27,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@codecraft/comet": "^1.0.0",
+    "@codecraftkit/comet": "^1.0.0",
     "react": "^16.0.0"
   },
   "devDependencies": {

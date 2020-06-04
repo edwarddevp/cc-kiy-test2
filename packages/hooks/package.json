@@ -1,5 +1,5 @@
 {
-  "name": "@codecraft/hooks",
+  "name": "@codecraftkit/hooks",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
@@ -15,9 +15,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@codecraft/usedatatable": "^1.0.0",
-    "@codecraft/usegetdatabyurl": "^1.0.0",
-    "@codecraft/usegqlrequest": "^1.0.0"
+    "@codecraftkit/usedatatable": "^1.0.0",
+    "@codecraftkit/usegetdatabyurl": "^1.0.0",
+    "@codecraftkit/usegqlrequest": "^1.0.0"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
@@ -33,7 +33,7 @@
   },
   "peerDependencies": {
     "@apollo/react-hooks": "^3.1.3",
-    "@codecraft/comet": "^1.0.1",
+    "@codecraftkit/comet": "^1.0.1",
     "react": "^16.0.0"
   },
   "devDependencies": {
