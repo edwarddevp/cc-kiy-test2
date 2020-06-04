@@ -1,9 +1,9 @@
 import React, { createContext, useState, useEffect } from 'react';
-import redirectTo from "../helpers/redirectTo";
+import redirectTo from "@cc-test2/redirectto";
 
 export const SessionContext = createContext();
 
-export const SessionContextProvider = ({ children }) => {
+export const git SessionContextProvider = ({ children }) => {
 
   const [ token, setToken ] = useState('');
   const [ session, setSession ] = useState({});
