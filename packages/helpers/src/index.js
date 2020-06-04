@@ -6,6 +6,7 @@ import Comet from "@cc-test2/comet";
 import slug from "@cc-test2/slug";
 import phoneNumber from "@cc-test2/phonenumber";
 import initApollo from "@cc-test2/initapollo";
+import splitItem from "@cc-test2/splititem";
 
 export {
   toLowerCase,
@@ -16,5 +17,6 @@ export {
   Comet,
   phoneNumber,
   withApolloClient,
-  initApollo
+  initApollo,
+  splitItem
 }

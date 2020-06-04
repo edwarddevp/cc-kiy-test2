@@ -32,5 +32,10 @@ DataTabs.propTypes = {
   styles: PropTypes.object,
   variant: PropTypes.string,
   contentMinH: PropTypes.string,
-  defaultIndex: PropTypes.number
+  defaultIndex: PropTypes.number,
+  fitted: PropTypes.bool,
+  tabIndex: PropTypes.number,
+  setTabIndex: PropTypes.func,
+  externalNav: PropTypes.bool
 }
+
