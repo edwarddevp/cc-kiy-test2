@@ -1,12 +1,5 @@
-0 silly argv {
-0 silly argv   _: [ 'publish' ],
-0 silly argv   composed: 'publish',
-0 silly argv   lernaVersion: '3.22.0',
-0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
-0 silly argv }
-1 notice cli v3.22.0
-2 verbose rootPath D:\cc-kit
-3 info versioning independent
-4 error JSONError: Unexpected token ' in JSON at position 971 while parsing near '...st2/texttransform": '^1.0.1',    "@cc-t...' in packages\helpers\package.json
-4 error     at module.exports (D:\cc-kit\node_modules\parse-json\index.js:26:19)
-4 error     at parse (D:\cc-kit\node_modules\load-json-file\index.js:15:9)
+301 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
+301 error fatal: unable to access 'https://github.com/edwarddevp/cc-kiy-test2.git/': Could not resolve host: github.com
+301 error
+301 error     at makeError (D:\cc-kit\node_modules\execa\index.js:174:9)
+301 error     at D:\cc-kit\node_modules\execa\index.js:278:16
