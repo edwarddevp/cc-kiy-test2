@@ -1,6 +1,6 @@
 {
   "name": "@cc-test2/core",
-  "version": "2.0.36",
+  "version": "2.0.37",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -46,7 +46,7 @@
   "dependencies": {
     "@cc-test2/alert": "^1.0.9",
     "@cc-test2/animation": "^1.0.11",
-    "@cc-test2/boxcontainer": "^2.0.14",
+    "@cc-test2/boxcontainer": "^2.0.15",
     "@cc-test2/clickoutside": "^1.0.9",
     "@cc-test2/datatable": "^2.0.14",
     "@cc-test2/datatabs": "^2.0.15",
