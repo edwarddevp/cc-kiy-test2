@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save navbar
+npm install --save @cc-test2/navbar
 ```
 
 ## Usage

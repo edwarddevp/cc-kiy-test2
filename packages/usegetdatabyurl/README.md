@@ -2,27 +2,20 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/usegetdatabyurl.svg)](https://www.npmjs.com/package/usegetdatabyurl) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/usegetdatabyurl.svg)](https://www.npmjs.com/package/@cc-test2/usegetdatabyurl) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save usegetdatabyurl
+npm install --save @cc-test2/usegetdatabyurl
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
 
-import MyComponent from 'usegetdatabyurl'
-import 'usegetdatabyurl/dist/index.css'
+import useGetDataByUrl from '@cc-test2/usegetdatabyurl'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
 ```
 
 ## License

@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/core.svg)](https://www.npmjs.com/package/core) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/core.svg)](https://www.npmjs.com/package/@cc-test2/core) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save core
+npm install --save @cc-test2/core
 ```
 
 ## Usage
@@ -15,13 +15,14 @@ npm install --save core
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'core'
-import 'core/dist/index.css'
+import { BoxContainer } from '@cc-test2/core'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const ExampleComponent = () => {
+  return (
+        <BoxContainer>
+            Some interesting Text
+        </BoxContainer>
+    ))
 }
 ```
 

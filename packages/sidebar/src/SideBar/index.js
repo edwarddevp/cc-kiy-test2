@@ -5,6 +5,7 @@ import {HeadItem} from "./components/HeadItem";
 import {MenuItems} from "./components/MenuItems";
 import {ToggleButton} from "./components/ToggleButton";
 import {useDrawerActions} from "./hooks/useDrawerActions";
+import PropTypes from "prop-types";
 
 export const SideBar = ({head, menu, isResizable = false, isCollapsible = false}) => {
 
@@ -33,3 +34,10 @@ export const SideBar = ({head, menu, isResizable = false, isCollapsible = false}
     {isResizable && <PseudoBox {...draggable} onDrag={resize}/>}
   </Grid>
 };
+
+SideBar.propTypes = {
+  head:PropTypes.object,
+  menu:PropTypes.array,
+  isResizable:PropTypes.bool,
+  isCollapsible:PropTypes.bool
+}

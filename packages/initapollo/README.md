@@ -2,27 +2,20 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/initapollo.svg)](https://www.npmjs.com/package/initapollo) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/initapollo.svg)](https://www.npmjs.com/package/@cc-test2/initapollo) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save initapollo
+npm install --save @cc-test2/initapollo
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
 
-import MyComponent from 'initapollo'
-import 'initapollo/dist/index.css'
+import initApollo from ' @cc-test2/initapollo'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
 ```
 
 ## License

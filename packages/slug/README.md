@@ -2,27 +2,20 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/slug.svg)](https://www.npmjs.com/package/slug) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/slug.svg)](https://www.npmjs.com/package/@cc-test2/slug) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save slug
+npm install --save @cc-test2/slug
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
 
-import MyComponent from 'slug'
-import 'slug/dist/index.css'
+import { slug } from '@cc-test2/slug'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
 ```
 
 ## License

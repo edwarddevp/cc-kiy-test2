@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/animations.svg)](https://www.npmjs.com/package/animations) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/animations.svg)](https://www.npmjs.com/package/@cc-test2/animations) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save animations
+npm install --save @cc-test2/animations
 ```
 
 ## Usage
@@ -15,14 +15,14 @@ npm install --save animations
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'animations'
-import 'animations/dist/index.css'
+import Animation from "@cc-test2/animation";
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const ExampleComponent = () => {
+  return (
+         <Animation autoplay loop name={'chicken-70'} height={200} width={200}/>
+    ))
 }
+
 ```
 
 ## License

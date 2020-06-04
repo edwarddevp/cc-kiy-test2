@@ -37,7 +37,7 @@ export const PageHeader = ({ title, loading, rightAction, leftAction, borderBott
 }
 
 PageHeader.propTypes = {
-  title:PropTypes.string,
+  title:PropTypes.any,
   loading:PropTypes.bool,
   rightAction:PropTypes.any,
   leftAction:PropTypes.any,

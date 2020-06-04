@@ -2,27 +2,20 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/redirectto.svg)](https://www.npmjs.com/package/redirectto) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/redirectto.svg)](https://www.npmjs.com/package/@cc-test2/redirectto) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save redirectto
+npm install --save @cc-test2/redirectto
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
 
-import MyComponent from 'redirectto'
-import 'redirectto/dist/index.css'
+import redirectTo from '@cc-test2/redirectto'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
 ```
 
 ## License

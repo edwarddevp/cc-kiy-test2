@@ -2,26 +2,35 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/photogridandaction.svg)](https://www.npmjs.com/package/photogridandaction) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/photogridandaction.svg)](https://www.npmjs.com/package/@cc-test2/photogridandaction) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save photogridandaction
+npm install --save @cc-test2/photogridandaction
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { useState } from 'react'
+import PhotoGridAndAction from "@cc-test2/photogridandaction";
 
-import MyComponent from 'photogridandaction'
-import 'photogridandaction/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const Test = () => {
+    const [files,setFiles] = useState([])
+    
+    return (
+        <PhotoGridAndAction 
+            images={images} 
+            state={files} 
+            submitState={setFiles} 
+            limit={4}
+            removeAlbumImages
+            removeAgencyImages
+            removeImageAction={(image)=>console.log(image)} 
+         />
+        =)
 }
 ```
 

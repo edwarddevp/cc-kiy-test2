@@ -2,6 +2,7 @@ import React from 'react'
 import { itemIcon, menuItem } from '../../../styles'
 import { Box, Grid, Icon, PseudoBox, Text } from '@chakra-ui/core'
 import Link from 'next/link'
+import {buildParams} from '../../../helpers/buildParams'
 
 export const Item = ({ item, showCollapse, setShowCollapse, active }) => {
   const RouterU = ({ item, children }) => {
@@ -9,7 +10,7 @@ export const Item = ({ item, showCollapse, setShowCollapse, active }) => {
       <Box as='a' href={item.href} target='_blank'>
         {children}
       </Box> :
-      item.route ? <Link href={item.route}>
+      item.route ? <Link {...buildParams(item)}>
           {children}
         </Link> :
         item.action ? <Box onClick={item.action}>

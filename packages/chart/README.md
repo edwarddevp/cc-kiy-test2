@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/chart.svg)](https://www.npmjs.com/package/chart) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/chart.svg)](https://www.npmjs.com/package/@cc-test2/chart) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save chart
+npm install --save @cc-test2/chart
 ```
 
 ## Usage
@@ -15,13 +15,41 @@ npm install --save chart
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'chart'
-import 'chart/dist/index.css'
+const Chart = dynamic(
+  () => import('@cc-test2/chart').then((mod) => mod.Chart),
+  { ssr: false }
+)
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const data = [{
+    "category": "Lithuania",
+    "value": 501.9,
+    "marketing": 250
+}, {
+    "category": "Czech Republic",
+    "value": 301.9,
+    "marketing": 222,
+    "sales": 251
+}, {
+    "category": "Ireland",
+    "value": 201.1,
+    "marketing": 170
+}, {
+    "category": "Germany",
+    "value": 165.8,
+    "marketing": 122
+}, {
+    "category": "Australia",
+    "value": 139.9,
+    "marketing": 99
+}];
+
+const ExampleComponent = () => {
+    const { Chart } = useInitChart();
+  return (
+        <BoxContainer>
+            Some interesting Text
+        </BoxContainer>
+    ))
 }
 ```
 
