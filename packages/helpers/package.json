@@ -1,6 +1,6 @@
 {
   "name": "@cc-test2/helpers",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@cc-test2/apollo": "^1.0.5",
-    "@cc-test2/auth": "^1.0.5",
+    "@cc-test2/auth": "^1.0.6",
     "@cc-test2/comet": "^1.0.1",
     "@cc-test2/initapollo": "^1.0.2",
     "@cc-test2/phonenumber": "^1.0.1",
