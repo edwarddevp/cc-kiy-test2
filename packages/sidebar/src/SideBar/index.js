@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import {Grid, Collapse, PseudoBox} from "@chakra-ui/core";
 import {container, draggable} from './styles'
 import {HeadItem} from "./components/HeadItem";
@@ -24,13 +24,13 @@ export const SideBar = ({head, menu, isResizable = false, isCollapsible = false}
     w={`${widthDrawer}px`}
     onMouseOver={() => setShowToggle(true)}
     onMouseLeave={() => setShowToggle(false)}>
-    <>
+    <Fragment>
       {(showToggle || !showDrawer) && <ToggleButton isCollapsible={isCollapsible} action={() => setShowDrawer(!showDrawer)} state={showDrawer}/>}
       <Collapse isOpen={showData}>
         {(showDrawer && head) && <HeadItem data={head}/>}
         {showDrawer && <MenuItems items={menu}/>}
       </Collapse>
-    </>
+    </Fragment>
     {isResizable && <PseudoBox {...draggable} onDrag={resize}/>}
   </Grid>
 };

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState,Fragment} from 'react'
 import {Item} from "./Item";
 import {CollapseItems} from "./CollapseItems";
 
@@ -6,7 +6,7 @@ export const MenuItem = ({item, active}) => {
 
   const [show, setShow] = useState(false)
 
-  return <>
+  return <Fragment>
     <Item
       item={item}
       active={active}
@@ -17,6 +17,6 @@ export const MenuItem = ({item, active}) => {
       setShowCollapse={setShow}
       item={item}
       active={active}/>}
-  </>
+  </Fragment>
 
 };
