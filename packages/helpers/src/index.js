@@ -1,12 +1,12 @@
-import toLowerCase from "@cc-test2/texttransform";
-import auth, { withAuthSync } from "@cc-test2/auth";
-import redirectTo from "@cc-test2/redirectto";
-import withApolloClient from "@cc-test2/apollo";
-import Comet from "@cc-test2/comet";
-import slug from "@cc-test2/slug";
-import phoneNumber from "@cc-test2/phonenumber";
-import initApollo from "@cc-test2/initapollo";
-import splitItem from "@cc-test2/splititem";
+import toLowerCase from "@codecraft/texttransform";
+import auth, { withAuthSync } from "@codecraft/auth";
+import redirectTo from "@codecraft/redirectto";
+import withApolloClient from "@codecraft/apollo";
+import Comet from "@codecraft/comet";
+import slug from "@codecraft/slug";
+import phoneNumber from "@codecraft/phonenumber";
+import initApollo from "@codecraft/initapollo";
+import splitItem from "@codecraft/splititem";
 
 export {
   toLowerCase,

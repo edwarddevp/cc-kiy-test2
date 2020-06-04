@@ -1,6 +1,6 @@
 {
-  "name": "@cc-test2/helpers",
-  "version": "1.0.10",
+  "name": "@codecraft/helpers",
+  "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -41,15 +41,15 @@
     "slugify": "^1.3.6"
   },
   "dependencies": {
-    "@cc-test2/apollo": "^1.0.7",
-    "@cc-test2/auth": "^1.0.8",
-    "@cc-test2/comet": "^1.0.2",
-    "@cc-test2/initapollo": "^1.0.3",
-    "@cc-test2/phonenumber": "^1.0.2",
-    "@cc-test2/redirectto": "^1.0.6",
-    "@cc-test2/slug": "^1.0.2",
-    "@cc-test2/splititem": "^1.0.2",
-    "@cc-test2/texttransform": "^1.0.3"
+    "@codecraft/apollo": "^1.0.0",
+    "@codecraft/auth": "^1.0.0",
+    "@codecraft/comet": "^1.0.0",
+    "@codecraft/initapollo": "^1.0.0",
+    "@codecraft/phonenumber": "^1.0.0",
+    "@codecraft/redirectto": "^1.0.0",
+    "@codecraft/slug": "^1.0.0",
+    "@codecraft/splititem": "^1.0.0",
+    "@codecraft/texttransform": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

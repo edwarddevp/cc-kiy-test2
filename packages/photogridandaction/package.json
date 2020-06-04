@@ -1,6 +1,6 @@
 {
-  "name": "@cc-test2/photogridandaction",
-  "version": "1.0.11",
+  "name": "@codecraft/photogridandaction",
+  "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -27,8 +27,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@cc-test2/alert": "^1.0.5",
-    "@cc-test2/modal": "^1.0.5",
+    "@codecraft/alert": "^1.0.0",
+    "@codecraft/modal": "^1.0.0",
     "@chakra-ui/core": "^0.7.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",

@@ -1,6 +1,6 @@
 {
-  "name": "@cc-test2/formfield",
-  "version": "1.0.11",
+  "name": "@codecraft/formfield",
+  "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@cc-test2/clickoutside": "^1.0.8",
+    "@codecraft/clickoutside": "^1.0.0",
     "@chakra-ui/core": "^0.7.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",

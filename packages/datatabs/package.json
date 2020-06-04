@@ -1,6 +1,6 @@
 {
-  "name": "@cc-test2/datatabs",
-  "version": "2.0.15",
+  "name": "@codecraft/datatabs",
+  "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",

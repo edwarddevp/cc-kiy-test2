@@ -2,19 +2,19 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@cc-test2/usegqlrequest.svg)](https://www.npmjs.com/package/@cc-test2/usegqlrequest) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraft/usegqlrequest.svg)](https://www.npmjs.com/package/@codecraft/usegqlrequest) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @cc-test2/usegqlrequest
+npm install --save @codecraft/usegqlrequest
 ```
 
 ## Usage
 
 ```jsx
 
-import useGqlRequest from '@cc-test2/usegqlrequest'
+import useGqlRequest from '@codecraft/usegqlrequest'
 
 ```
 

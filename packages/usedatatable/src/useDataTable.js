@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react'
-import Comet from '@cc-test2/comet';
+import Comet from '@codecraft/comet';
 import {useQuery} from "@apollo/react-hooks";
 /*
 * hacer el llamado para recibir los datos a colocar en la tabla

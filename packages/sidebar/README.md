@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save @cc-test2/sidebar
+npm install --save @codecraft/sidebar
 ```
 
 ## Usage

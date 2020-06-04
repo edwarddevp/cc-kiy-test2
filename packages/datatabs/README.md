@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@cc-test2/datatabs.svg)](https://www.npmjs.com/package/@cc-test2/datatabs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraft/datatabs.svg)](https://www.npmjs.com/package/@codecraft/datatabs) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @cc-test2/datatabs
+npm install --save @codecraft/datatabs
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save @cc-test2/datatabs
 ```jsx
 import React, { Component } from 'react'
 
-import DataTabs from "@cc-test2/datatabs"
+import DataTabs from "@codecraft/datatabs"
 
 const ExampleComponent = () => {
 const [index,setIndex] = useState(0)

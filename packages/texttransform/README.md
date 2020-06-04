@@ -2,19 +2,19 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@cc-test2/texttransform.svg)](https://www.npmjs.com/package/@cc-test2/texttransform) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codecraft/texttransform.svg)](https://www.npmjs.com/package/@codecraft/texttransform) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @cc-test2/texttransform
+npm install --save @codecraft/texttransform
 ```
 
 ## Usage
 
 ```jsx
 
-import textTransform from '@cc-test2/texttransform'
+import textTransform from '@codecraft/texttransform'
 
 ```
 

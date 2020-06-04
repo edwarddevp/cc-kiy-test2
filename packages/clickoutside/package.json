@@ -1,6 +1,6 @@
 {
-  "name": "@cc-test2/clickoutside",
-  "version": "1.0.9",
+  "name": "@codecraft/clickoutside",
+  "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
