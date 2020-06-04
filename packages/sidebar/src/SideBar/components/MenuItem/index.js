@@ -12,11 +12,11 @@ export const MenuItem = ({item, active}) => {
       active={active}
       setShowCollapse={setShow}
       showCollapse={show} />
-    {item.subItems && <CollapseItems
-      showCollapse={show}
-      setShowCollapse={setShow}
-      item={item}
-      active={active}/>}
+      {item.subItems && <CollapseItems
+        showCollapse={show}
+        setShowCollapse={setShow}
+        item={item}
+        active={active}/>}
   </Fragment>
 
 };
