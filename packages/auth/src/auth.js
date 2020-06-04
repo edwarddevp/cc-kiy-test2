@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import nextCookie from 'next-cookies';
 import redirectTo from "@cc-test2/redirectto";
 

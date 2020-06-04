@@ -1,2 +1,2 @@
-import App from './apollo'
-export default App
+import withApolloClient from './apollo'
+export default withApolloClient

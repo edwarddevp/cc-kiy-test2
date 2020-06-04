@@ -1,0 +1,1 @@
+export { useGetDataByUrl } from './useGetDataByUrl'
