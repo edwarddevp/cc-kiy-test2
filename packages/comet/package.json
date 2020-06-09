@@ -1,5 +1,5 @@
 {
-  "name": "@codecraftkit/comet",
+  "name": "@cc-test2/comet",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
@@ -7,7 +7,7 @@
   "repository": "CodeCraft/comet",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
-  "source": "src/index.js",
+  "source": "src/Comet.js",
   "engines": {
     "node": ">=10"
   },

@@ -2,19 +2,19 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraftkit/auth.svg)](https://www.npmjs.com/package/@codecraftkit/auth) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/auth.svg)](https://www.npmjs.com/package/@cc-test2/auth) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraftkit/auth
+npm install --save @cc-test2/auth
 ```
 
 ## Usage
 
 ```jsx
 import React from 'react'
-import {withAuthSync} from "@codecraftkit/auth";
+import {withAuthSync} from "@cc-test2/auth";
 import {GettingStartedContainer} from "../src/container/GettingStartedContainer";
 import {Box} from "@chakra-ui/core";
 

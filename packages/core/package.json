@@ -1,5 +1,5 @@
 {
-  "name": "@codecraftkit/core",
+  "name": "@cc-test2/core",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
@@ -44,19 +44,19 @@
     "react-paginate": "^6.3.2"
   },
   "dependencies": {
-    "@codecraftkit/alert": "^1.0.0",
-    "@codecraftkit/animation": "^1.0.0",
-    "@codecraftkit/boxcontainer": "^1.0.0",
-    "@codecraftkit/clickoutside": "^1.0.0",
-    "@codecraftkit/datatable": "^1.0.0",
-    "@codecraftkit/datatabs": "^1.0.0",
-    "@codecraftkit/formfield": "^1.0.0",
-    "@codecraftkit/modal": "^1.0.0",
-    "@codecraftkit/navbar": "^1.0.0",
-    "@codecraftkit/pageheader": "^1.0.0",
-    "@codecraftkit/paginate": "^1.0.0",
-    "@codecraftkit/photogridandaction": "^1.0.0",
-    "@codecraftkit/sidebar": "^1.0.0"
+    "@cc-test2/alert": "^1.0.0",
+    "@cc-test2/animation": "^1.0.0",
+    "@cc-test2/boxcontainer": "^1.0.0",
+    "@cc-test2/clickoutside": "^1.0.0",
+    "@cc-test2/datatable": "^1.0.0",
+    "@cc-test2/datatabs": "^1.0.0",
+    "@cc-test2/formfield": "^1.0.0",
+    "@cc-test2/modal": "^1.0.0",
+    "@cc-test2/navbar": "^1.0.0",
+    "@cc-test2/pageheader": "^1.0.0",
+    "@cc-test2/paginate": "^1.0.0",
+    "@cc-test2/photogridandaction": "^1.0.0",
+    "@cc-test2/sidebar": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

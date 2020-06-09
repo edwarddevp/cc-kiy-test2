@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import Comet from '@codecraftkit/comet';
+import Comet from '@cc-test2/comet';
 
 export const useGetDataByUrl = (path, api) => {
 

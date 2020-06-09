@@ -1,5 +1,5 @@
 {
-  "name": "@codecraftkit/apollo",
+  "name": "@cc-test2/apollo",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
@@ -27,7 +27,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@codecraftkit/initapollo": "^1.0.1",
+    "@cc-test2/initapollo": "^1.0.1",
     "next": "^9.4.2",
     "react": "^16.0.0",
     "react-apollo": "^3.1.3"

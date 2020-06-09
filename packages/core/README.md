@@ -2,12 +2,12 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraftkit/core.svg)](https://www.npmjs.com/package/@codecraftkit/core) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/core.svg)](https://www.npmjs.com/package/@cc-test2/core) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraftkit/core
+npm install --save @cc-test2/core
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save @codecraftkit/core
 ```jsx
 import React, { Component } from 'react'
 
-import { BoxContainer } from '@codecraftkit/core'
+import { BoxContainer } from '@cc-test2/core'
 
 const ExampleComponent = () => {
   return (

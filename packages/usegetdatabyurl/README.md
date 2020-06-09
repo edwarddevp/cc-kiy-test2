@@ -2,19 +2,19 @@
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/@codecraftkit/usegetdatabyurl.svg)](https://www.npmjs.com/package/@codecraftkit/usegetdatabyurl) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@cc-test2/usegetdatabyurl.svg)](https://www.npmjs.com/package/@cc-test2/usegetdatabyurl) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @codecraftkit/usegetdatabyurl
+npm install --save @cc-test2/usegetdatabyurl
 ```
 
 ## Usage
 
 ```jsx
 
-import useGetDataByUrl from '@codecraftkit/usegetdatabyurl'
+import useGetDataByUrl from '@cc-test2/usegetdatabyurl'
 
 ```
 
