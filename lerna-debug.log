@@ -1,6 +1,8 @@
-310 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
-310 error remote: Permission to edwarddevp/cc-kiy-test2.git denied to cc-dev13.
-310 error fatal: unable to access 'https://github.com/edwarddevp/cc-kiy-test2.git/': The requested URL returned error: 403
-310 error
-310 error     at makeError (D:\cc-kit\node_modules\execa\index.js:174:9)
-310 error     at D:\cc-kit\node_modules\execa\index.js:278:16
+119 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
+120 error Error: Command failed: git tag @cc-test2/core@2.0.0 -m @cc-test2/core@2.0.0
+120 error fatal: tag '@cc-test2/core@2.0.0' already exists
+120 error
+120 error     at makeError (D:\cc-kit\node_modules\execa\index.js:174:9)
+120 error     at D:\cc-kit\node_modules\execa\index.js:278:16
+120 error     at processTicksAndRejections (internal/process/task_queues.js:94:5)
+120 error     at async Promise.all (index 1)
