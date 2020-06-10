@@ -1,13 +1,13 @@
 {
   "name": "@cc-test2/comet",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.3",
   "description": "Made with create-react-library",
   "author": "CodeCraft",
   "license": "MIT",
   "repository": "CodeCraft/comet",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
-  "source": "src/Comet.js",
+  "source": "src/index.js",
   "engines": {
     "node": ">=10"
   },

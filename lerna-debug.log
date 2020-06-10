@@ -1,5 +1,6 @@
-301 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
-301 error fatal: unable to access 'https://github.com/edwarddevp/cc-kiy-test2.git/': Could not resolve host: github.com
-301 error
-301 error     at makeError (D:\cc-kit\node_modules\execa\index.js:174:9)
-301 error     at D:\cc-kit\node_modules\execa\index.js:278:16
+310 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
+310 error remote: Permission to edwarddevp/cc-kiy-test2.git denied to cc-dev13.
+310 error fatal: unable to access 'https://github.com/edwarddevp/cc-kiy-test2.git/': The requested URL returned error: 403
+310 error
+310 error     at makeError (D:\cc-kit\node_modules\execa\index.js:174:9)
+310 error     at D:\cc-kit\node_modules\execa\index.js:278:16
